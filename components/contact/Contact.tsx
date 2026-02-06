@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export const Contact = () => {
   return (
-    <section className="w-full max-w-7xl py-8 flex flex-col gap-8 px-8 md:py-22.5 md:gap-16">
+    <section id="contact" className="w-full max-w-7xl py-8 flex flex-col gap-8 px-8 md:py-22.5 md:gap-16">
       <div className="flex flex-col gap-4 md:gap-8">
         <h2 className="text-[32px] font-semibold md:text-[40px]">Sold Now?</h2>
         <p className="text-[16px] md:text-[28px]">
