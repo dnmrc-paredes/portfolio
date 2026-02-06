@@ -2,7 +2,10 @@ import Image from "next/image"
 
 export const AboutMe = () => {
   return (
-    <section className="w-full max-w-7xl px-8 py-8 flex flex-col gap-8 order md:flex-row-reverse md:py-22.5">
+    <section
+      id="about"
+      className="w-full max-w-7xl px-8 py-8 flex flex-col gap-8 order md:flex-row-reverse md:py-22.5"
+    >
       <div className="flex flex-col w-full max-w-145 gap-4 md:gap-9.25">
         <h2 className="text-[42px] leading-10 font-black md:text-[72px] md:leading-18">
           Nice to meet you!
