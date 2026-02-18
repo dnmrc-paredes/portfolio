@@ -14,14 +14,13 @@ export const Experience = () => {
         </div>
 
         <div className="flex flex-col gap-2 md:gap-2">
-          <strong>Associate Frontend Engineer</strong>
+          <strong>Associate Software Engineer</strong>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis
-            perferendis asperiores nesciunt ad alias quibusdam accusantium fuga,
-            laboriosam sit officia, ullam reiciendis maxime perspiciatis velit
-            atque tempore sapiente iure exercitationem illum! Quidem velit
-            provident amet distinctio suscipit pariatur ea aut similique quae
-            illum! Aliquid nihil minus error asperiores inventore enim.
+            Designed, developed, and maintained responsive, user-friendly web
+            interfaces by handling UI implementation, building reusable
+            components, integrating APIs, optimizing performance, ensuring
+            cross-browser compatibility, and collaborating with cross-functional
+            teams to deliver high-quality applications.
           </p>
         </div>
       </div>

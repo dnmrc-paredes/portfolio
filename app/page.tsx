@@ -5,6 +5,7 @@ import { Contact } from "@/components/contact/Contact"
 import { Metadata } from "next"
 import { ToggleProvider } from "@/contexts/useToggle"
 import { Experience } from "@/components/experience/Experience"
+import { Footer } from "@/components/footer/Footer"
 
 export const metadata: Metadata = {
   title: "DPRDS | Software Engineer",
@@ -20,6 +21,7 @@ export default function Home() {
         <AboutMe />
         <Experience />
         <Contact />
+        <Footer />
       </ToggleProvider>
     </div>
   )
