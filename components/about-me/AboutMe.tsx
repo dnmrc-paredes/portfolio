@@ -11,12 +11,13 @@ export const AboutMe = () => {
           Nice to meet you!
         </h2>
         <p>
-          Hello, My name is Dinmarc Paredes and I am a software engineer with a
-          passion for developing and building innovative solutions. My journey
-          in web development began in 2019 when I was tasked by my professor
-          with creating a personal website. This experience sparked my interest
-          in the field, and since then, I have been honing my skills and
-          expanding my knowledge of web development.
+          Hello, My name is <strong>Dinmarc Paredes</strong> and I’m a{" "}
+          <strong>Software Engineer</strong> with over 3 years of experience,
+          having started my journey in 2020 driven by curiosity about how
+          websites work and a passion for turning ideas into interactive digital
+          experiences. I specialize in building responsive, user-friendly web
+          applications and enjoy helping clients achieve their goals by
+          delivering clean, efficient, and impactful solutions.
         </p>
       </div>
 

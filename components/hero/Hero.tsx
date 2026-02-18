@@ -18,10 +18,17 @@ export const Hero = () => {
           </div>
 
           <div className="flex flex-col gap-4 md:flex-row">
-            <button className="py-4 px-7 border-2 border-transparent bg-[#7522CA] rounded-[10px] text-white font-bold cursor-pointer hover:bg-white hover:text-[#7522CA] hover:border-[#7522CA]">
+            <a
+              href="#contact"
+              className="py-4 px-7 border-2 border-transparent text-center bg-[#7522CA] rounded-[10px] text-white font-bold cursor-pointer hover:bg-white hover:text-[#7522CA] hover:border-[#7522CA]"
+            >
               Get in touch
-            </button>
-            <button className="py-4 px-7 border-2 border-transparent font-bold flex gap-1 rounded-[10px] items-center justify-center cursor-pointer hover:border-2 hover:border-black">
+            </a>
+            <a
+              href="/documents/paredes-cv.pdf"
+              download={true}
+              className="py-4 px-7 border-2 border-transparent font-bold flex gap-1 rounded-[10px] items-center justify-center cursor-pointer hover:border-2 hover:border-black"
+            >
               {" "}
               <Image
                 alt="resume"
@@ -30,7 +37,7 @@ export const Hero = () => {
                 height={29}
               />{" "}
               Resume
-            </button>
+            </a>
           </div>
         </div>
 

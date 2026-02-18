@@ -16,12 +16,6 @@ export const Sidebar = () => {
           <a href="#about">About</a>
         </li>
         <li className="text-[28px] font-bold">
-          <a href="#works">Works</a>
-        </li>
-        <li className="text-[28px] font-bold">
-          <a href="#resume">Resume</a>
-        </li>
-        <li className="text-[28px] font-bold">
           <a href="#contact">Contact</a>
         </li>
       </ul>
